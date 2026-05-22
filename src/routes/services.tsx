@@ -59,12 +59,17 @@ function Services() {
         <h2 className="font-serif text-3xl">Core services</h2>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {core.map((s) => (
-            <div key={s.title} className="rounded-xl border border-border bg-card p-6 transition-all hover:-translate-y-1 hover:shadow-elegant">
-              <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary/5 text-primary">
-                <s.icon size={20} />
+            <div
+              key={s.title}
+              className="group relative overflow-hidden rounded-xl border border-border/60 bg-gradient-to-br from-secondary/60 via-background to-accent/40 p-6 shadow-soft transition-all hover:-translate-y-1 hover:border-gold/40 hover:shadow-elegant"
+            >
+              <div className="absolute inset-x-0 top-0 h-[3px] bg-gold-gradient opacity-0 transition-opacity group-hover:opacity-100" />
+              <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-gold/10 blur-2xl transition-all group-hover:bg-gold/20" />
+              <div className="relative flex h-12 w-12 items-center justify-center rounded-lg bg-primary text-primary-foreground shadow-soft transition-transform group-hover:scale-110">
+                <s.icon size={22} />
               </div>
-              <h3 className="mt-5 text-lg font-semibold">{s.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{s.desc}</p>
+              <h3 className="relative mt-5 text-lg font-semibold">{s.title}</h3>
+              <p className="relative mt-2 text-sm leading-relaxed text-muted-foreground">{s.desc}</p>
             </div>
           ))}
         </div>
