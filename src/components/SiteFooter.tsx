@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Mail, Phone, Linkedin, Instagram } from "lucide-react";
+import cpaLogo from "@/assets/usa_cpa_logo.jpeg";
 
 export function SiteFooter() {
   return (
@@ -7,9 +8,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 md:grid-cols-3">
         <div>
           <div className="flex items-center gap-2.5">
-            <span className="flex h-9 w-9 items-center justify-center rounded-md bg-hero-gradient text-sm font-semibold text-primary-foreground">
-              ST
-            </span>
+            <img src={cpaLogo} alt="CPA Logo" className="h-9 w-9 rounded-md object-cover" />
             <span className="font-serif text-lg">Shivangi Tankshali, CPA</span>
           </div>
           <p className="mt-4 max-w-xs text-sm text-muted-foreground">
