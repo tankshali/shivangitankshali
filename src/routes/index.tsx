@@ -92,7 +92,7 @@ function Home() {
             { k: "100%", v: "IRS Compliant Filings" },
             { k: "1:1", v: "Personal Advisory" },
             { k: "USA", v: "Federal & State Returns" },
-            { k: "Yr-round", v: "Tax Planning Support" },
+            { k: "Year-round", v: "Tax Planning Support" },
           ].map((s) => (
             <div key={s.v}>
               <p className="font-serif text-3xl text-foreground">{s.k}</p>
