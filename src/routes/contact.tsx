@@ -66,8 +66,8 @@ function Contact() {
               <p className="text-sm font-medium text-foreground">Follow for tax tips</p>
               <p className="mt-1 text-sm text-muted-foreground">Weekly videos on US taxation for individuals and businesses.</p>
               <div className="mt-4 flex gap-3">
-                <a href="https://linkedin.com" aria-label="LinkedIn" className="rounded-md border border-border bg-card p-2.5 hover:text-primary"><Linkedin size={16} /></a>
-                <a href="https://instagram.com" aria-label="Instagram" className="rounded-md border border-border bg-card p-2.5 hover:text-primary"><Instagram size={16} /></a>
+                <a href="https://www.linkedin.com/in/shivangi-tankshali-1534171a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="rounded-md border border-border bg-card p-2.5 hover:text-primary"><Linkedin size={16} /></a>
+                <a href="https://www.instagram.com/shivangi_tankshali/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="rounded-md border border-border bg-card p-2.5 hover:text-primary"><Instagram size={16} /></a>
               </div>
             </div>
           </div>

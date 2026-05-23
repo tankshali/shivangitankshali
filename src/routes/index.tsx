@@ -154,10 +154,10 @@ function Home() {
               to stay informed and avoid common, costly mistakes.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
-              <a href="https://linkedin.com" className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90">
+              <a href="https://www.linkedin.com/in/shivangi-tankshali-1534171a3/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90">
                 <Linkedin size={16} /> Follow on LinkedIn
               </a>
-              <a href="https://instagram.com" className="inline-flex items-center gap-2 rounded-md border border-border bg-background px-5 py-3 text-sm font-medium text-foreground hover:bg-accent">
+              <a href="https://www.instagram.com/shivangi_tankshali/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-md border border-border bg-background px-5 py-3 text-sm font-medium text-foreground hover:bg-accent">
                 <Instagram size={16} /> Watch on Instagram
               </a>
             </div>
