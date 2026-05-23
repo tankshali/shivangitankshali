@@ -45,7 +45,7 @@ function About() {
             <h2 className="font-serif text-3xl">Hi, I'm Shivangi.</h2>
             <div className="mt-5 space-y-5 text-muted-foreground leading-relaxed">
               <p>
-              I am a US licensed CPA and Indian Chartered Accountant with more than 10 years of professional experience in accounting, taxation, auditing, and financial advisory services.
+              As a Chartered Accountant and U.S. CPA with more than decade of experience in accounting, taxation, auditing, and financial advisory services.
               I help businesses and individuals navigate US financial and compliance requirements with accuracy, integrity, and practical expertise.
               </p>
               <p>
