@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
         "@type": "ProfessionalService",
         name: "Shivangi Tankshali, CPA",
         description: "Licensed US CPA providing US tax filing and advisory services.",
-        email: "shivangitankshali@gmail.com",
+        email: "cashivangitankshali@gmail.com",
         telephone: "+91-9925193737",
         areaServed: "US",
       }),
@@ -192,8 +192,8 @@ function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-3">
-              <a href="mailto:shivangitankshali@gmail.com" className="inline-flex items-center justify-center gap-2 rounded-md bg-gold-gradient px-5 py-3 text-sm font-semibold text-gold-foreground shadow-soft">
-                <Mail size={16} /> shivangitankshali@gmail.com
+              <a href="mailto:cashivangitankshali@gmail.com" className="inline-flex items-center justify-center gap-2 rounded-md bg-gold-gradient px-5 py-3 text-sm font-semibold text-gold-foreground shadow-soft">
+                <Mail size={16} /> cashivangitankshali@gmail.com
               </a>
               <a href="tel:+919925193737" className="inline-flex items-center justify-center gap-2 rounded-md border border-white/25 px-5 py-3 text-sm font-medium text-primary-foreground hover:bg-white/10">
                 <Phone size={16} /> +91 99251 93737

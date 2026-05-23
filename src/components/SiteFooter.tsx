@@ -32,8 +32,8 @@ export function SiteFooter() {
           <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
             <li className="flex items-center gap-2">
               <Mail size={15} className="text-gold" />
-              <a href="mailto:shivangitankshali@gmail.com" className="hover:text-foreground">
-                shivangitankshali@gmail.com
+              <a href="mailto:cashivangitankshali@gmail.com" className="hover:text-foreground">
+                cashivangitankshali@gmail.com
               </a>
             </li>
             <li className="flex items-center gap-2">

@@ -6,7 +6,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Shivangi Tankshali, CPA" },
-      { name: "description", content: "Book a consultation with Shivangi Tankshali, licensed US CPA. Email shivangitankshali@gmail.com or call +91 99251 93737." },
+      { name: "description", content: "Book a consultation with Shivangi Tankshali, licensed US CPA. Email cashivangitankshali@gmail.com or call +91 99251 93737." },
       { property: "og:title", content: "Contact Shivangi Tankshali, CPA" },
       { property: "og:description", content: "Book a quick consultation about your US tax situation." },
       { property: "og:url", content: "/contact" },
@@ -25,7 +25,7 @@ function Contact() {
     const body = encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nTopic: ${form.topic}\n\n${form.message}`
     );
-    window.location.href = `mailto:shivangitankshali@gmail.com?subject=${encodeURIComponent(
+    window.location.href = `mailto:cashivangitankshali@gmail.com?subject=${encodeURIComponent(
       "Consultation Request — " + (form.topic || "General")
     )}&body=${body}`;
     setSent(true);
@@ -48,11 +48,11 @@ function Contact() {
         <div className="grid gap-10 md:grid-cols-[1fr_1.2fr]">
           {/* Contact cards */}
           <div className="space-y-4">
-            <a href="mailto:shivangitankshali@gmail.com" className="flex items-start gap-4 rounded-xl border border-border bg-card p-5 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-elegant">
+            <a href="mailto:cashivangitankshali@gmail.com" className="flex items-start gap-4 rounded-xl border border-border bg-card p-5 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-elegant">
               <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary/5 text-primary"><Mail size={20} /></div>
               <div>
                 <p className="text-xs uppercase tracking-[0.16em] text-muted-foreground">Email</p>
-                <p className="mt-1 font-medium text-foreground">shivangitankshali@gmail.com</p>
+                <p className="mt-1 font-medium text-foreground">cashivangitankshali@gmail.com</p>
               </div>
             </a>
             <a href="tel:+919925193737" className="flex items-start gap-4 rounded-xl border border-border bg-card p-5 shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-elegant">
