@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import cpaLogo from "@/assets/cpa-logo.jpeg";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -15,9 +16,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
         <Link to="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <span className="flex h-9 w-12 items-center justify-center rounded-md bg-hero-gradient text-[10px] font-bold text-primary-foreground shadow-soft">
-            CPA
-          </span>
+          <img src={cpaLogo} alt="Certified Public Accountant logo" className="h-10 w-10 rounded-full object-contain shadow-soft" />
           <span className="flex flex-col leading-none">
             <span className="font-serif text-lg text-foreground">Shivangi Tankshali</span>
             <span className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">CPA · USA & CA</span>
