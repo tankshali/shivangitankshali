@@ -19,12 +19,12 @@ export const Route = createFileRoute("/services")({
 });
 
 const core = [
-  { icon: Receipt, title: "US Tax Return Filing", desc: "Federal and state returns for individuals (1040) and businesses (1120, 1120-S, 1065)." },
-  { icon: Building2, title: "LLC & S-Corp Setup", desc: "Entity formation, EIN, and tax election strategy tailored to your business." },
-  { icon: BookOpen, title: "Bookkeeping", desc: "Clean monthly books with reconciliations, categorization, and reporting." },
-  { icon: Users, title: "Payroll Services", desc: "Reliable payroll runs, withholdings, and quarterly filings." },
-  { icon: Calculator, title: "Sales Tax Compliance", desc: "Multi-state nexus, registration, and ongoing sales tax filings." },
-  { icon: TrendingUp, title: "Tax Planning & Advisory", desc: "Year-round strategy to legally minimize tax and maximize cash flow." },
+  { icon: Receipt, title: "US Tax Return Filing", desc: "Individual & business returns prepared accurately and on time." },
+  { icon: Building2, title: "LLC & S-Corp Setup", desc: "Entity formation and tax strategy built around your goals." },
+  { icon: BookOpen, title: "Bookkeeping & Payroll", desc: "Clean books, reliable payroll, and audit-ready records." },
+  { icon: Calculator, title: "Sales Tax Compliance", desc: "Multi-state nexus tracking and sales tax filings." },
+  { icon: TrendingUp, title: "Advisory & Tax Planning", desc: "Year-round planning to legally minimize your tax." },
+  { icon: ShieldCheck, title: "IRS Compliance", desc: "Stay compliant and avoid costly penalties and surprises." },
 ];
 
 const specialties = [
