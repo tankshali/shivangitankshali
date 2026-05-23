@@ -41,10 +41,10 @@ export function SiteFooter() {
               <a href="tel:+919925193737" className="hover:text-foreground">+91 99251 93737</a>
             </li>
             <li className="flex items-center gap-3 pt-2">
-              <a href="https://linkedin.com" aria-label="LinkedIn" className="rounded-md border border-border p-2 hover:text-foreground">
+              <a href="https://www.linkedin.com/in/shivangi-tankshali-1534171a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="rounded-md border border-border p-2 hover:text-foreground">
                 <Linkedin size={15} />
               </a>
-              <a href="https://instagram.com" aria-label="Instagram" className="rounded-md border border-border p-2 hover:text-foreground">
+              <a href="https://www.instagram.com/shivangi_tankshali/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="rounded-md border border-border p-2 hover:text-foreground">
                 <Instagram size={15} />
               </a>
             </li>
