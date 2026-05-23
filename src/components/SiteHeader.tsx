@@ -20,7 +20,7 @@ export function SiteHeader() {
           </span>
           <span className="flex flex-col leading-none">
             <span className="font-serif text-lg text-foreground">Shivangi Tankshali</span>
-            <span className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">CPA · USA</span>
+            <span className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">CPA · USA & CA</span>
           </span>
         </Link>
 
