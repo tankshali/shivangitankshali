@@ -15,8 +15,8 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
         <Link to="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <span className="flex h-9 w-9 items-center justify-center rounded-md bg-hero-gradient text-sm font-semibold text-primary-foreground shadow-soft">
-            ST
+          <span className="flex h-9 w-12 items-center justify-center rounded-md bg-hero-gradient text-[10px] font-bold text-primary-foreground shadow-soft">
+            CPA
           </span>
           <span className="flex flex-col leading-none">
             <span className="font-serif text-lg text-foreground">Shivangi Tankshali</span>
