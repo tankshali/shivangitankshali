@@ -12,8 +12,7 @@ export function SiteFooter() {
             <span className="font-serif text-lg">Shivangi Tankshali, CPA</span>
           </div>
           <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-            Licensed US CPA helping small businesses, founders, and individuals navigate
-            US taxes with clarity and confidence.
+            Licensed US CPA helping businesses and individuals navigate US taxes with clarity and confidence.
           </p>
         </div>
 
