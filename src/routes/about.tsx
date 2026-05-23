@@ -5,10 +5,10 @@ import shivangi from "@/assets/shivangi.jpeg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Shivangi Tankshali, CPA" },
-      { name: "description", content: "Meet Shivangi Tankshali, a licensed US CPA helping small businesses and individuals navigate US tax filing and compliance." },
-      { property: "og:title", content: "About — Shivangi Tankshali, CPA" },
-      { property: "og:description", content: "Licensed US CPA. Tax filing, advisory, and education for small businesses and individuals." },
+      { title: "About — Shivangi Tankshali, CPA & CA" },
+      { name: "description", content: "U.S.-licensed CPA and Indian Chartered Accountant with 10+ years experience in accounting, taxation, and auditing." },
+      { property: "og:title", content: "About — Shivangi Tankshali, CPA & CA" },
+      { property: "og:description", content: "Professional experience in accounting, taxation, auditing, and financial advisory services for U.S. compliance." },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
@@ -45,8 +45,8 @@ function About() {
             <h2 className="font-serif text-3xl">Hi, I'm Shivangi.</h2>
             <div className="mt-5 space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                I'm a licensed US CPA helping small businesses, founders, and individuals
-                navigate US taxes with clarity and confidence.
+              I am a U.S.-licensed CPA and Indian Chartered Accountant with more than 10 years of professional experience in accounting, taxation, auditing, and financial advisory services.
+              I help businesses and individuals navigate U.S. financial and compliance requirements with accuracy, integrity, and practical expertise.
               </p>
               <p>
                 Most business owners overpay taxes or miss key compliance steps — not because
