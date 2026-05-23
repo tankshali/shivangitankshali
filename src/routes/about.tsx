@@ -5,7 +5,7 @@ import shivangi from "@/assets/shivangi.jpeg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Shivangi Tankshali, CPA" },
+      { title: "About — Shivangi Tankshali, CPA & CA" },
       { name: "description", content: "U.S.-licensed CPA and Indian Chartered Accountant with 10+ years experience in accounting, taxation, and auditing." },
       { property: "og:title", content: "About — Shivangi Tankshali, CPA & CA" },
       { property: "og:description", content: "Professional experience in accounting, taxation, auditing, and financial advisory services for U.S. compliance." },

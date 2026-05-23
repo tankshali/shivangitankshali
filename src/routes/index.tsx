@@ -8,9 +8,9 @@ import shivangi from "@/assets/shivangi.jpeg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Shivangi Tankshali, CPA — US Tax Filing & Advisory" },
+      { title: "Shivangi Tankshali, CPA & CA — US Tax Filing & Advisory" },
       { name: "description", content: "U.S.-licensed CPA and Indian Chartered Accountant with 10+ years experience. Helping businesses navigate U.S. financial and compliance requirements." },
-      { property: "og:title", content: "Shivangi Tankshali, CPA — US Tax Filing & Advisory" },
+      { property: "og:title", content: "Shivangi Tankshali, CPA & CA — US Tax Filing & Advisory" },
       { property: "og:description", content: "US tax filing, LLC/S-Corp strategy, bookkeeping, payroll, and ongoing advisory." },
     ],
     links: [{ rel: "canonical", href: "/" }],
