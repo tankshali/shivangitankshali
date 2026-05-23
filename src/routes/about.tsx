@@ -42,7 +42,7 @@ function About() {
             <img src={shivangi} alt="Shivangi Tankshali" className="relative aspect-square w-full rounded-2xl object-cover shadow-elegant" />
           </div>
           <div>
-            <h2 className="font-serif text-3xl">Hi, I'm Shivangi.</h2>
+            <h2 className="font-serif text-3xl">Shivangi Tankshali, CPA USA, CA</h2>
             <div className="mt-5 space-y-5 text-muted-foreground leading-relaxed">
               <p>
               As a Chartered Accountant and U.S. CPA with more than decade of experience in accounting, taxation, auditing, and financial advisory services.
