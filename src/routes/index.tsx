@@ -67,7 +67,7 @@ function Home() {
             <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-primary-foreground/70">
               <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-gold" /> Individuals & businesses</span>
               <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-gold" /> IRS compliant</span>
-              <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-gold" /> Tax Planning</span>
+              <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-gold" /> Professional Experience</span>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ function Home() {
             { k: "100%", v: "IRS Compliant Filings" },
             { k: "1:1", v: "Personal Advisory" },
             { k: "USA", v: "Federal & State Returns" },
-            { k: "10+ Years", v: "Tax Planning" },
+            { k: "10+ Years", v: "Professional Experience" },
           ].map((s) => (
             <div key={s.v}>
               <p className="font-serif text-3xl text-foreground">{s.k}</p>
