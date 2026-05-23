@@ -54,7 +54,7 @@ function Home() {
               Clarity and confidence in your <span className="text-gold italic">US taxes.</span>
             </h1>
             <p className="mt-6 max-w-xl text-base text-primary-foreground/80 md:text-lg">
-              I am a US licensed CPA and Indian Chartered Accountant with more than 10 years of professional experience in accounting, taxation, auditing, and financial advisory services. I help businesses and individuals navigate US financial and compliance requirements with accuracy, integrity, and practical expertise.
+              As a Chartered Accountant and U.S. CPA with more than decade of experience in accounting, taxation, auditing, and financial advisory services. I help businesses and individuals navigate US financial and compliance requirements with accuracy, integrity, and practical expertise.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link to="/contact" className="inline-flex items-center gap-2 rounded-md bg-gold-gradient px-5 py-3 text-sm font-semibold text-gold-foreground shadow-elegant transition-transform hover:scale-[1.02]">
