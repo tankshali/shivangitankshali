@@ -67,7 +67,7 @@ function Home() {
             <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-primary-foreground/70">
               <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-gold" /> Individuals & businesses</span>
               <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-gold" /> IRS compliant</span>
-              <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-gold" /> Professional Experience</span>
+              <span className="flex items-center gap-2"><CheckCircle2 size={16} className="text-gold" /> Tax Planning</span>
             </div>
           </div>
 
