@@ -85,17 +85,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 
 function RootShell({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <head>
-        <HeadContent />
-      </head>
-      <body>
-        {children}
-        <Scripts />
-      </body>
-    </html>
-  );
+  // Client-only app: render only the children fragment so we don't produce a
+  // nested <html>/<head>/<body> element which breaks the DOM and can block inputs.
+  return <>{children}</>;
 }
 
 function RootComponent() {

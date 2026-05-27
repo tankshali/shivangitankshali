@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Mail, Phone, Linkedin, Instagram, Send, CheckCircle2 } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
@@ -20,14 +20,16 @@ function Contact() {
   const [sent, setSent] = useState(false);
   const [form, setForm] = useState({ name: "", email: "", topic: "", message: "" });
 
-  const submit = (e: React.FormEvent) => {
+  const submit = (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     const body = encodeURIComponent(
       `Name: ${form.name}\nEmail: ${form.email}\nTopic: ${form.topic}\n\n${form.message}`
     );
-    window.location.href = `mailto:cashivangitankshali@gmail.com?subject=${encodeURIComponent(
+    const mailtoUrl = `mailto:cashivangitankshali@gmail.com?subject=${encodeURIComponent(
       "Consultation Request — " + (form.topic || "General")
     )}&body=${body}`;
+
+    window.location.href = mailtoUrl;
     setSent(true);
   };
 
