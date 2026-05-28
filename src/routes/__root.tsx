@@ -99,11 +99,9 @@ function RootComponent() {
 
   useEffect(() => {
     // Handle redirect from 404.html after a GitHub Pages 404
-    if (search.redirect) {
-      const redirectPath = search.redirect.replace(/^\/shivangitankshali/, "");
-      if (redirectPath && redirectPath !== "/") {
-        router.navigate({ to: redirectPath });
-      }
+    const redirectPath = search.redirect;     
+    if (redirectPath && redirectPath !== "/") {
+      router.navigate({ to: redirectPath });
     }
   }, [search.redirect, router]);
 
