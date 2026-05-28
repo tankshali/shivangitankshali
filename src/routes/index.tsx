@@ -4,6 +4,8 @@ import {
   Receipt, TrendingUp, Mail, Phone, Linkedin, Instagram, PlayCircle, Quote,
 } from "lucide-react";
 import shivangi from "@/assets/shivangi.jpeg";
+import reel1 from "../../attached_assets/reel1.jpg";
+import reel2 from "../../attached_assets/reel2.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -157,7 +159,7 @@ function Home() {
               <a href="https://www.linkedin.com/in/shivangi-tankshali-1534171a3/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90">
                 <Linkedin size={16} /> Follow on LinkedIn
               </a>
-              <a href="https://www.instagram.com/shivangi_tankshali/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-md border border-border bg-background px-5 py-3 text-sm font-medium text-foreground hover:bg-accent">
+              <a href="https://www.instagram.com/shivangi_tankshali/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-md bg-gradient-to-r from-[#f58529] via-[#dd2a7b] to-[#8134af] px-5 py-3 text-sm font-medium text-white shadow-soft transition hover:opacity-90">
                 <Instagram size={16} /> Watch on Instagram
               </a>
             </div>
@@ -165,14 +167,29 @@ function Home() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-2xl bg-gold/10 blur-2xl" />
             <div className="relative grid grid-cols-2 gap-4">
-              {["Filing", "S-Corp", "Deductions", "Sales Tax"].map((t, i) => (
-                <div key={t} className={`group relative flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-xl border border-border bg-card p-5 shadow-soft ${i % 2 ? "translate-y-6" : ""}`}>
-                  <PlayCircle className="text-gold" size={28} />
-                  <div>
-                    <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Reel · {2024 + (i % 2)}</p>
-                    <p className="mt-1 font-serif text-lg text-foreground">{t} explained simply</p>
+              {[reel1, reel2].map((image, index) => (
+                <a
+                  key={image}
+                  href="https://www.instagram.com/shivangi_tankshali/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group overflow-hidden rounded-xl border border-border bg-card shadow-soft transition-transform hover:-translate-y-1"
+                  aria-label="View Instagram video"
+                >
+                  <div className="relative aspect-[4/5] overflow-hidden">
+                    <img
+                      src={image}
+                      alt="Instagram video preview"
+                      className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-black/20" />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-full bg-black/60 text-gold shadow-lg">
+                        <PlayCircle size={28} />
+                      </div>
+                    </div>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
           </div>

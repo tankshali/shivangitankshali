@@ -1,6 +1,8 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, Phone, Linkedin, Instagram } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import cpaLogo from "@/assets/usa_cpa_logo.jpeg";
+import linkedinIcon from "@/assets/linkedin.svg";
+import instagramIcon from "@/assets/instagram.svg";
 
 export function SiteFooter() {
   return (
@@ -40,10 +42,10 @@ export function SiteFooter() {
             </li>
             <li className="flex items-center gap-3 pt-2">
               <a href="https://www.linkedin.com/in/shivangi-tankshali-1534171a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="rounded-md border border-border p-2 hover:text-foreground">
-                <Linkedin size={15} />
+                <img src={linkedinIcon} alt="LinkedIn" className="h-4 w-4" />
               </a>
               <a href="https://www.instagram.com/shivangi_tankshali/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="rounded-md border border-border p-2 hover:text-foreground">
-                <Instagram size={15} />
+                <img src={instagramIcon} alt="Instagram" className="h-4 w-4" />
               </a>
             </li>
           </ul>

@@ -1,6 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { CheckCircle2, Linkedin, Instagram } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import shivangi from "@/assets/shivangi.jpeg";
+import linkedinIcon from "@/assets/linkedin.svg";
+import instagramIcon from "@/assets/instagram.svg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -74,10 +76,10 @@ function About() {
                 Book a consultation
               </Link>
               <a href="https://www.linkedin.com/in/shivangi-tankshali-1534171a3/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-md border border-border bg-background px-5 py-3 text-sm font-medium text-foreground hover:bg-accent">
-                <Linkedin size={16} /> LinkedIn
+                <img src={linkedinIcon} alt="LinkedIn" className="h-4 w-4" /> LinkedIn
               </a>
               <a href="https://www.instagram.com/shivangi_tankshali/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-md border border-border bg-background px-5 py-3 text-sm font-medium text-foreground hover:bg-accent">
-                <Instagram size={16} /> Instagram
+                <img src={instagramIcon} alt="Instagram" className="h-4 w-4" /> Instagram
               </a>
             </div>
           </div>
