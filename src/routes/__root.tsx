@@ -4,9 +4,11 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+  useSearch,
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
+import { useEffect } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
@@ -92,6 +94,19 @@ function RootShell({ children }: { children: React.ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  const router = useRouter();
+  const search = useSearch({ from: "__root__" }) as { redirect?: string };
+
+  useEffect(() => {
+    // Handle redirect from 404.html after a GitHub Pages 404
+    if (search.redirect) {
+      const redirectPath = search.redirect.replace(/^\/shivangitankshali/, "");
+      if (redirectPath && redirectPath !== "/") {
+        router.navigate({ to: redirectPath });
+      }
+    }
+  }, [search.redirect, router]);
+
   return (
     <QueryClientProvider client={queryClient}>
       <div className="flex min-h-screen flex-col">
