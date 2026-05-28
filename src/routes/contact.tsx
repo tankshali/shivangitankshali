@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import React, { useState } from "react";
-import { Mail, Phone, Linkedin, Instagram, Send, CheckCircle2 } from "lucide-react";
+import { Mail, Phone, Send, CheckCircle2 } from "lucide-react";
+import linkedinIcon from "@/assets/linkedin.svg";
+import instagramIcon from "@/assets/instagram.svg";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -68,8 +70,12 @@ function Contact() {
               <p className="text-sm font-medium text-foreground">Follow for tax tips</p>
               <p className="mt-1 text-sm text-muted-foreground">Weekly videos on US taxation for individuals and businesses.</p>
               <div className="mt-4 flex gap-3">
-                <a href="https://www.linkedin.com/in/shivangi-tankshali-1534171a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="rounded-md border border-border bg-card p-2.5 hover:text-primary"><Linkedin size={16} /></a>
-                <a href="https://www.instagram.com/shivangi_tankshali/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="rounded-md border border-border bg-card p-2.5 hover:text-primary"><Instagram size={16} /></a>
+                <a href="https://www.linkedin.com/in/shivangi-tankshali-1534171a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="rounded-md border border-border bg-card p-2.5 hover:text-primary">
+                  <img src={linkedinIcon} alt="LinkedIn" className="h-4 w-4" />
+                </a>
+                <a href="https://www.instagram.com/shivangi_tankshali/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="rounded-md border border-border bg-card p-2.5 hover:text-primary">
+                  <img src={instagramIcon} alt="Instagram" className="h-4 w-4" />
+                </a>
               </div>
             </div>
           </div>
