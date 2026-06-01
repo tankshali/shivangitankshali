@@ -170,11 +170,11 @@ function Home() {
               {[reel1, reel2].map((image, index) => (
                 <a
                   key={image}
-                  href="https://www.instagram.com/shivangi_tankshali/"
+                  href="https://www.linkedin.com/in/shivangi-tankshali-1534171a3/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group overflow-hidden rounded-xl border border-border bg-card shadow-soft transition-transform hover:-translate-y-1"
-                  aria-label="View Instagram video"
+                  aria-label="Follow on LinkedIn"
                 >
                   <div className="relative aspect-[4/5] overflow-hidden">
                     <img
